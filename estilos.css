@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1 {
+	font-family: 'Righteous';
+	font-size: 1em;
+}
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	font-style: normal;
+	color: #FFFFFF;
+}
+h3 {
+	font-family: 'Righteous';
+	font-size: 0.5em;
+	font-style: normal;
+	color: #1D1D1B
+}
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+}
