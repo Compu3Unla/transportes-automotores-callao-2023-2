@@ -2,7 +2,9 @@
 /* CSS Document */
 
 ul {
+	list-style: none;
 	padding: 0px;
+	margin: 0px;
 }
 
 body {
@@ -24,15 +26,18 @@ h2 {
 	font-weight: 1200 ;
 	color: #FFFFFF;
 }
-#foot{
-	font-size: 12px;
-}
 
 h3 {
 	font-family: 'Righteous';
 	font-size: 1em;
 	font-style: normal;
 	color: #1D1D1B
+}
+
+h5{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
 }
 
 p {
@@ -67,37 +72,31 @@ footer {
 	width: 100%;
 	max-width: 1920px;
 	padding: 50px 100px;
-	align-items: flex-start;
-	background-color: dimgray;	}
+	background-color: dimgray;
+	justify-content: space-between;
+}
 
 footer section div {
 		display: flex;
-		padding: 0px;
 		flex-direction: column;
+		padding: 0px;
+		padding-left: 60px;
 		gap: 5px;
-	}
+
+}
 	.listas-footer {
 		display: flex;
 		flex-direction: row;
-		align-items: flex-start;
-		justify-content: flex-end;
 		gap: 9px;
-	}
-	.listas-footer li {
-		display:flex;
-		flex-direction: row;
-		align-items: flex-start;
 		color: #FFF;
 		font-family: Open Sans;
 		font-size: 12px;
 		font-style: normal;
 		font-weight: 400;
-		line-height: 25px;
+		line-height:25px;
 	}
 
 	.iconos-footer {
 		width: 14px;
 		height: 14px;
-		padding-top: 17px;
-		padding-right: 5px;
 	}
