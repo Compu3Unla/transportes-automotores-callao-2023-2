@@ -81,8 +81,6 @@ footer section div {
 		flex-direction: column;
 		padding: 0px;
 		padding-left: 60px;
-		gap: 5px;
-
 }
 	.listas-footer {
 		display: flex;
@@ -99,4 +97,7 @@ footer section div {
 	.iconos-footer {
 		width: 14px;
 		height: 14px;
+		float: left;
+		padding-top: 5px;
+		padding-right: 7px;
 	}
