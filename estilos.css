@@ -125,7 +125,31 @@ header {
 	background-color: black;
 	color: #DD0820;
 }
-
+.linea124{
+	display:flex;
+	flex-direction:row;
+	padding: 60px;
+	color:#1d71b8;	
+}
+.botonera124:hover{
+	background-color: black;
+	color: #1d71b8;
+}
+.botonera124{
+	display:flex;
+	align-items: center;
+	width: 400px;
+	height:35px;
+	padding-left: 30px;
+	margin-left: 70px;
+	background-color: #1d71b8;
+	color:#FFFFFF;
+	font-weight: lighter;
+	border-radius: 30px;
+}
+.header124 {
+	background: #1d71b8;
+	}
 footer {
 	display: flex;
 	width: 100%;
