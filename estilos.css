@@ -1,5 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
+
 body {
 	width: 100%;
 	max-width: 1920px;
@@ -13,7 +14,10 @@ body {
 ul {
 	list-style: none;
 	padding: 0px;
-	margin: 0px;
+	margin: 0px;}
+
+#body2 {
+	background-color: white;
 }
 
 h1 {
@@ -31,7 +35,6 @@ h3 {
 	font-family: 'Righteous';
 	font-size: 1em;
 	font-style: normal;
-	color: #1D1D1B
 }
 h4 {
 	font-family: 'Open Sans', sans-serif;
@@ -56,23 +59,54 @@ header {
 	display: flex;
 	width: 100%;
 	max-width: 1920px;
-	padding: 0px 100px;
+	padding: 0px 100px auto;
 	justify-content: space-between;
 	align-items: center;
+	flex-wrap: nowrap;
 	background: #FFFFFF;
 	box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25)	}
 	nav {
 		display: flex;
 		padding: 15px 30px;
 		justify-content: flex-end;
-		align-items: center;	}
-	nav a {
+		align-items: center;
 		color: #3B3B3B;
+	}
+	nav a {
 		font-family: "Open Sans", sans-serif;
 		font-size: 14px;
 		font-style: normal;
 		font-weight: 400;
-		padding: 0px 20px}
+		padding: 0px 20px
+	}
+.header12 {
+	background: #DD0820;
+	color: #FFFFFF;
+	}
+
+.linea12{
+	display:flex;
+	flex-direction:row;
+	padding: 60px;
+	color:#DD0820;
+	
+}
+.botonera {
+	display:flex;
+	align-items: center;
+	width: 400px;
+	height:35px;
+	padding-left: 30px;
+	margin-left: 70px;
+	background-color: #DD0820;
+	color:#FFFFFF;
+	font-weight: lighter;
+	border-radius: 30px;
+}
+.botonera:hover{
+	background-color: black;
+	color: #DD0820;
+}
 
 footer {
 	display: flex;
@@ -82,6 +116,7 @@ footer {
 	background-color: dimgray;
 	justify-content: space-between;
 }
+
 footer section div {
 		display: flex;
 		flex-direction: column;
@@ -105,9 +140,7 @@ footer section div {
 		font-weight: 400;
 		
 	}
-.div-lineas {
 
-}
 	.iconos-footer {
 		width: 14px;
 		height: 14px;
