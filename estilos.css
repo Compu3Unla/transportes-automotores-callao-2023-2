@@ -16,6 +16,10 @@ body {
 	align-items: flex-start;
 }
 
+#body2{
+	background-color: white;
+}
+
 h1 {
 	font-family: 'Righteous';
 	font-size: 1.8em;
@@ -43,7 +47,6 @@ p {
 	font-family: 'Open Sans', sans-serif;
 }
 
-
 header {
 	display: flex;
 	width: 100%;
@@ -69,21 +72,6 @@ header {
 		padding: 0px 20px
 	}
 
-.lineas{
-	display:flex;
-	flex-direction: row;
-	align-items: center;
-	text-align: center;
-	justify-content: space-between;
-	max-width: 1920px;
-	height: 800px;
-	background-color:blue;
-}
-	
-.lineas hover{
-	background-color:darkblue;
-}
-
 
 .header12 {
 	background: #DD0820;
@@ -94,6 +82,7 @@ header {
 	display:flex;
 	flex-direction:row;
 	padding: 60px;
+	color:#DD0820;
 	
 }
 .botonera{
