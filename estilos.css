@@ -1,13 +1,19 @@
 @charset "utf-8";
 /* CSS Document */
 body {
-
 	width: 100%;
 	max-width: 1920px;
 	background-color: rgba(0, 0, 0, 0.15);
 	display: inline-flex;
 	flex-direction: column;
-	align-items: flex-start;}
+	align-items: flex-start;
+	padding: 0px;
+	margin: 0px
+}
+ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
 }
 
 h1 {
@@ -20,16 +26,31 @@ h2 {
 	font-weight: 1200 ;
 	color: #FFFFFF;
 }
+
 h3 {
 	font-family: 'Righteous';
 	font-size: 1em;
 	font-style: normal;
 	color: #1D1D1B
 }
+h4 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	color: #1D1D1B
+}
+h5{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	font-weight:500;
+	color: #FFFFFF;
+}
+
 p {
 	font-family: 'Open Sans', sans-serif;
-	font-style: normal;
 }
+
 
 header {
 	display: flex;
@@ -52,40 +73,45 @@ header {
 		font-style: normal;
 		font-weight: 400;
 		padding: 0px 20px}
+
 footer {
 	display: flex;
 	width: 100%;
 	max-width: 1920px;
-	padding: 50px 100px;
-	align-items: flex-start;
-	background-color: dimgray;	}
-footer section {
-		display: flex;
-		align-items: flex-start;
-		gap: 100px;
+	padding: 30px 100px 30px 100px;
+	background-color: dimgray;
+	justify-content: space-between;
 }
 footer section div {
 		display: flex;
 		flex-direction: column;
-		align-items: flex-start;
-		gap: 5px;}
+		padding: 0px;
+}
+	#logo-footer {
+		width: 250px;
+		height: 80px;
+		padding: 15px 10px;
+	}
 	.listas-footer {
+		width: 1020px;
+		justify-content: space-between;
 		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
+		flex-direction: row;
 		gap: 9px;
-		
-		}
-	.listas-footer li {
-		display:flex;
-		flex-direction: column;
-		align-items: center;
-		color: #FFF;
+		color: #FFFFFF;
 		font-family: Open Sans;
-		font-size: 13px;
+		font-size: 15px;
 		font-style: normal;
 		font-weight: 400;
-		line-height: 20px;
-		}
+		
+	}
+.div-lineas {
+
+}
 	.iconos-footer {
-		width: 20px;	}
+		width: 14px;
+		height: 14px;
+		float: left;
+		padding-right: 7px;
+		padding-top: 5px
+	}
