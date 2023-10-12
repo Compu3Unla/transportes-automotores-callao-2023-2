@@ -22,8 +22,10 @@ ul {
 
 h1 {
 	font-family: 'Righteous';
-	font-size: 1.8em;
+	font-size: 45px;
+	line-height: 0px;
 }
+
 h2 {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.5em;
@@ -36,6 +38,13 @@ h3 {
 	font-size: 1em;
 	font-style: normal;
 }
+.subtitulo{
+	font-weight: lighter;
+	line-height: 10px;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
 h4 {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
@@ -43,6 +52,7 @@ h4 {
 	font-weight: 700;
 	color: #1D1D1B
 }
+
 h5{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
@@ -53,12 +63,17 @@ h5{
 p {
 	font-family: 'Open Sans', sans-serif;
 }
+.texto-negro{
+	color:black;
+	font-size: 17px;
+	margin-right: 500px;
+}
 
 
 header {
 	display: flex;
 	width: 100%;
-	max-width: 1920px;
+	max-width: 1920px auto;
 	padding: 0px 100px auto;
 	justify-content: space-between;
 	align-items: center;
@@ -77,11 +92,14 @@ header {
 		font-size: 14px;
 		font-style: normal;
 		font-weight: 400;
-		padding: 0px 20px
+		padding: 0px 20px;
 	}
+.navblanco{
+	color: #FFFFFF;
+}
+
 .header12 {
 	background: #DD0820;
-	color: #FFFFFF;
 	}
 
 .linea12{
@@ -91,7 +109,7 @@ header {
 	color:#DD0820;
 	
 }
-.botonera {
+.botonera12{
 	display:flex;
 	align-items: center;
 	width: 400px;
@@ -103,7 +121,7 @@ header {
 	font-weight: lighter;
 	border-radius: 30px;
 }
-.botonera:hover{
+.botonera12:hover{
 	background-color: black;
 	color: #DD0820;
 }
