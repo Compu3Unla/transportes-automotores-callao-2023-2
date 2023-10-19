@@ -1,6 +1,5 @@
 @charset "utf-8";
 /* CSS Document */
-
 body {
 	width: 100%;
 	max-width: 1920px;
@@ -14,7 +13,9 @@ body {
 ul {
 	list-style: none;
 	padding: 0px;
-	margin: 0px;}
+	margin: 0px;
+}
+
 h1 {
 	font-family: 'Righteous';
 	font-size: 1.8em;
@@ -29,6 +30,7 @@ h3 {
 	font-family: 'Righteous';
 	font-size: 1em;
 	font-style: normal;
+	color: #1D1D1B
 }
 h4 {
 	font-family: 'Open Sans', sans-serif;
@@ -63,6 +65,7 @@ header {
 		color: #3B3B3B;
 		}
 	nav a {
+		color: #3B3B3B;
 		font-family: "Open Sans", sans-serif;
 		font-size: 14px;
 		font-style: normal;
