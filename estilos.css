@@ -3,7 +3,7 @@
 body {
 	width: 100%;
 	max-width: 1920px;
-	background-color: rgba(0, 0, 0, 0.15);
+	background-color: white;
 	display: inline-flex;
 	flex-direction: column;
 	align-items: flex-start;
@@ -26,7 +26,6 @@ h2 {
 	font-weight: 1200 ;
 	color: #FFFFFF;
 }
-
 h3 {
 	font-family: 'Righteous';
 	font-size: 1em;
@@ -43,14 +42,12 @@ h4 {
 h5{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
-	font-weight:500;
+	font-weight:550;
 	color: #FFFFFF;
 }
-
 p {
 	font-family: 'Open Sans', sans-serif;
 }
-
 
 header {
 	display: flex;
@@ -58,22 +55,39 @@ header {
 	max-width: 1920px;
 	padding: 0px 100px;
 	justify-content: space-between;
-	align-items: center;
 	background: #FFFFFF;
 	box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25)	}
 	nav {
 		display: flex;
 		padding: 15px 30px;
 		justify-content: flex-end;
-		align-items: center;	}
+		align-items: center;
+		color: #3B3B3B;
+		}
 	nav a {
 		color: #3B3B3B;
 		font-family: "Open Sans", sans-serif;
 		font-size: 14px;
 		font-style: normal;
 		font-weight: 400;
-		padding: 0px 20px}
-
+		padding: 0px 20px
+		}
+	.header-logo {
+		height: 25px;
+		width: 116.34px;
+		margin: 10px 0px 5px 0px
+		}
+#header12 {
+	background: #DD0820;
+	color: white
+	}
+#header124 {
+	background: #1D71B8;
+	color: white
+	}
+	.nav-lineas {
+		color:white
+	}
 footer {
 	display: flex;
 	width: 100%;
@@ -97,17 +111,8 @@ footer section div {
 		justify-content: space-between;
 		display: flex;
 		flex-direction: row;
-		gap: 9px;
-		color: #FFFFFF;
-		font-family: Open Sans;
-		font-size: 15px;
-		font-style: normal;
-		font-weight: 400;
-		
+		gap: 9px;	
 	}
-.div-lineas {
-
-}
 	.iconos-footer {
 		width: 14px;
 		height: 14px;
@@ -115,48 +120,62 @@ footer section div {
 		padding-right: 7px;
 		padding-top: 5px
 	}
+	.a-footer {
+		color: #FFFFFF;
+		font-family: Open Sans;
+		font-size: 15px;
+		font-style: normal;
+		font-weight: 400;	
+	}
+.a-footer:hover {
+	font-weight: 600;
+}
 
-/* formulario de contacto */
-form {
-	width: 100%;
-	height: auto;
+
+.lineas{
 	display:flex;
-	flex-direction: column;
+	flex-direction:row;
+	padding: 60px;
+}
+.mapa {
+	width: 845px;
+	height: 500px;
 }
 
-main {
-	width: 100%;
-	height: 100%;
-	display: flex;
-	padding: 20px;
-	align-items: baseline;
-	justify-content: space-around;
+.botonera-12 {
+	display:flex;
+	align-items: center;
+	width: 400px;
+	height:35px;
+	padding-left: 30px;
+	margin-left: 70px;
+	background-color: #DD0820;
+	color:#FFFFFF;
+	font-weight: lighter;
+	border-radius: 30px;
 }
-
-input {
-	width: 100%;
-	background-color:#DADADA;
-	padding: 10px;
-	margin: 7px 0px;
-	border-radius: 10px;
-	border-width: 0px;
-	
-}
-
-textarea {
-	width: 100%;
-	height: 200px;
-	background-color:#DADADA;
-	padding: 10px;
-	margin: 7px 0px;
-	border-radius: 10px;
-	border-width: 0px;
-}
-
-.boton-enviar{
-	width: 90px;
+.botonera-12:hover{
+	background-color: black;
+	color: #DD0820;
 }
 
 .fondo-contacto{
 	background-color: #FFFFFF;
+}
+
+.botonera-124 {
+	display:flex;
+	align-items: center;
+	width: 400px;
+	height:35px;
+	padding-left: 30px;
+	margin-left: 70px;
+	background-color: #1D71B8;
+	color:#FFFFFF;
+	font-weight: lighter;
+	border-radius: 30px;
+}
+.botonera-124:hover{
+	background-color: black;
+	color: #1D71B8;
 }
