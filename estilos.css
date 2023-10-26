@@ -235,9 +235,13 @@ textarea {
 .contacto{
 	display: flex;
 	flex-direction: row;
-	padding: 40px;
+	padding: 50px;
 }
 
 .columna-izquierda-contacto{
 	margin-left: 60px;
+}
+
+.columna-derecha-contacto{
+	padding-left: 100px;
 }
