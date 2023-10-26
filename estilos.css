@@ -136,5 +136,27 @@ main {
 input {
 	width: 100%;
 	background-color:#DADADA;
+	padding: 10px;
+	margin: 7px 0px;
+	border-radius: 10px;
+	border-width: 0px;
 	
+}
+
+textarea {
+	width: 100%;
+	height: 200px;
+	background-color:#DADADA;
+	padding: 10px;
+	margin: 7px 0px;
+	border-radius: 10px;
+	border-width: 0px;
+}
+
+.boton-enviar{
+	width: 90px;
+}
+
+.fondo-contacto{
+	background-color: #FFFFFF;
 }
