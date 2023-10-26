@@ -231,3 +231,13 @@ textarea {
 .boton-enviar{
 	width: 90px;
 }
+
+.contacto{
+	display: flex;
+	flex-direction: row;
+	padding: 40px;
+}
+
+.columna-izquierda-contacto{
+	margin-left: 60px;
+}
