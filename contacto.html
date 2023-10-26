@@ -6,7 +6,7 @@
 	<link href="estilos.css" rel="stylesheet" type="text/css">
 </head>
 
-<body>
+<body class="fondo-contacto">
 	<header>
 		<img src="img/logo-h-color.svg" alt="logo" class="header-logo">
 		<nav>
@@ -19,6 +19,7 @@
 	<main>
 		
 		<section>
+
 			<article>
 				<h3>Contacto</h3>
 				<label for="E-mail"><p>E-mail</p></label>
@@ -27,6 +28,17 @@
 				<textarea name="Escriba-su-mensaje" id="Mensaje"></textarea>	
 				<input type="submit">
 			</article>
+
+			<form>
+				<article>
+					<h3>Contacto</h3>
+					<input type="E-mail" name="E-mail" id="E-mail" placeholder="E-mail" required>
+
+					<textarea name="mensaje" id="mensaje" placeholder="Escriba su mensaje..."></textarea>
+
+					<input type="submit" class="boton-enviar">
+				</article>
+			</form>
 			<article>
 				<h3>Trabajá con nosotros</h3>
 				<p>Para postularte como conductor completá el formulario haciendo click en este link</p>

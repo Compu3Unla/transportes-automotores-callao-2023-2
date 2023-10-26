@@ -129,6 +129,7 @@ footer section div {
 	}
 .a-footer:hover {
 	font-weight: 600;
+<<<<<<< HEAD
 }
 
 
@@ -142,6 +143,21 @@ footer section div {
 	height: 500px;
 }
 
+=======
+}
+
+
+.lineas{
+	display:flex;
+	flex-direction:row;
+	padding: 60px;
+}
+.mapa {
+	width: 845px;
+	height: 500px;
+}
+
+>>>>>>> origin/Rocio
 .botonera-12 {
 	display:flex;
 	align-items: center;
@@ -157,6 +173,7 @@ footer section div {
 .botonera-12:hover{
 	background-color: black;
 	color: #DD0820;
+<<<<<<< HEAD
 }
 
 .botonera-124 {
@@ -175,3 +192,51 @@ footer section div {
 	background-color: black;
 	color: #1D71B8;
 }
+=======
+}
+
+.fondo-contacto{
+	background-color: #FFFFFF;
+}
+
+.botonera-124 {
+	display:flex;
+	align-items: center;
+	width: 400px;
+	height:35px;
+	padding-left: 30px;
+	margin-left: 70px;
+	background-color: #1D71B8;
+	color:#FFFFFF;
+	font-weight: lighter;
+	border-radius: 30px;
+}
+.botonera-124:hover{
+	background-color: black;
+	color: #1D71B8;
+}
+
+input {
+	width: 100%;
+	background-color:#DADADA;
+	padding: 10px;
+	margin: 7px 0px;
+	border-radius: 10px;
+	border-width: 0px;
+	
+}
+
+textarea {
+	width: 100%;
+	height: 200px;
+	background-color:#DADADA;
+	padding: 10px;
+	margin: 7px 0px;
+	border-radius: 10px;
+	border-width: 0px;
+}
+
+.boton-enviar{
+	width: 90px;
+}
+>>>>>>> origin/Rocio
