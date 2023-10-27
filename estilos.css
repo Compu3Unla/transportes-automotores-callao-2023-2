@@ -245,3 +245,7 @@ textarea {
 .columna-derecha-contacto{
 	padding-left: 100px;
 }
+
+.columna-izquierda-contacto article p a{
+	color:#000000;
+}
