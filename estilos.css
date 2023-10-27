@@ -215,8 +215,10 @@ input {
 	margin: 7px 0px;
 	border-radius: 10px;
 	border-width: 0px;
-	
-}
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	font-weight:600;
+	}
 
 textarea {
 	width: 100%;
@@ -226,10 +228,13 @@ textarea {
 	margin: 7px 0px;
 	border-radius: 10px;
 	border-width: 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	font-weight:600;
 }
 
 .boton-enviar{
-	width: 90px;
+	width: 25%;
 }
 
 .contacto{
