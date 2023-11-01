@@ -330,6 +330,13 @@ textarea {
 
 .boton-enviar{
 	width: 25%;
+	background-color: #000000;
+	color: #DADADA;
+}
+
+.boton-enviar:hover{
+	background-color: dimgray;
+	color: #FFFFFF;
 }
 
 .contacto{
