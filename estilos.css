@@ -5,13 +5,21 @@ html{
 }
 
 body {
-	width: auto;
-	max-width: 1920px;
+	width: 100%;
+	max-width: 1920px auto;
 	background-color: white;
+	padding: 0px;
+	margin: 0px;
 	display: inline-flex;
 	flex-direction: column;
 	align-items: flex-start;
 	overflow-x: hidden;
+}
+
+ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
 }
 
 h1 {
@@ -44,7 +52,7 @@ h4 {
 	font-weight: 600;
 	margin-bottom: 10px;
 }
-	
+
 h5{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
@@ -62,7 +70,7 @@ p {
 header {
 	display: flex;
 	width: 90%;
-	max-width: 1920px;
+	max-width: 1920px auto;
 	padding: 5px 5%;
 	justify-content: space-between;
 	background: white;
@@ -70,7 +78,7 @@ header {
 	position: fixed;
 	top: 0px;
 	z-index: 100;
-	animation: fade 2s ease-in;
+	animation: fade 1.s ease-in;
 }
 
 nav {
@@ -89,9 +97,18 @@ nav a {
 	padding: 0px 30px;
 	color: black;
 }
-	a:hover{
-		font-weight: 600;
-	}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	font-weight: 600;
+}
+
+#estas-aqui{
+	pointer-events: none;
+}
 
 .header-logo {
 	height: 22px;
@@ -197,6 +214,24 @@ footer section div{
 	width: 40%;
 }
 
+.texto-img h2{
+	font-size: 30px;
+	font-weight: 800;
+	line-height: 1.5;
+	text-shadow: 1px 1.5px 3px black;
+}
+
+/* Fading animation galería */
+.fade {
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+
 /*------Noticias y pregúntas-------*/
 
 .contenedor {
@@ -276,18 +311,6 @@ video {
 	width: 95%;
 }
 
-/* Fading animation */
-.fade {
-	animation-name: fade;
-	animation-duration: 1.5s;
-}
-
-@keyframes fade {
-	from {opacity: .4} 
-	to {opacity: 1}
-}
-
-
 /*------Botones-------*/
 
 #land-lineas{
@@ -335,6 +358,7 @@ video {
 	justify-content: space-between;
 }
 .mapa {
+	margin: 5% 0px;
 	width: 100%;
 	height: 500px;
 }
@@ -367,7 +391,7 @@ video {
 	border-radius: 30px;
 }
 .botonera-12:hover{
-	background-color: dimgray;
+	background-color: black;
 	color: #DD0820;
 }
 
@@ -386,7 +410,7 @@ video {
 	border-radius: 30px;
 }
 .botonera-124:hover{
-	background-color: dimgray;
+	background-color: black;
 	color: #1D71B8;
 }
 
@@ -438,6 +462,10 @@ textarea {
 	justify-content: space-between;
 }
 
+.contacto div{
+	margin: 5% 0px;
+}
+
 /*--GENERALES*/
 * {
 	margin: 0px;
@@ -450,28 +478,27 @@ textarea {
 
 .columna-1 {
 	width: 55%;
-	min-height: 800px;
+	min-height: auto;
+	margin-top: 20px;
 	display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+	flex-direction: column;
 }
 .columna-1 article p {
 	color: #1D1D1B;
 	font-size: 20px;
-	
-	
 }
 .columna-2 {
 	width: 25%;
+	margin-top: 20px;
 	height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+	display: flex;
+	flex-direction: column;
 	padding: 0 50px;
 	gap: 20px;
 }
 
 /*--ESTADO DE SERVICIO--*/
+
 .servicio {
 	width: 600px;
 	height: 50px;
