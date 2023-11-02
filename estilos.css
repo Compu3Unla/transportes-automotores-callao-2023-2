@@ -202,6 +202,7 @@ footer section div{
 	width: auto;
 }
 .next {
+	margin: 0px;
 	right: 0;
 	border-radius: 3px 0 0 3px;
 }
@@ -544,11 +545,11 @@ textarea {
 	bottom: 10%;
 	right: 5%;
 	z-index: 10;
-	background-image:_url("img/estado-normal.svg");
+	background-image: url("img/estado-normal.svg");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	animation: estado alternate 30s infinite;
-	animation-delay: 2s
+	animation-delay: 2s;
 }
 @keyframes estado {
 	0% {
@@ -571,3 +572,68 @@ textarea {
 	}
 }
 
+@media screen and (max-width: 600px) {
+	
+	body{
+		margin-top:15%;
+		margin-left: 0px;
+		margin-right: 0px;
+		padding: 0px;
+	}
+	
+/*--INDEX.--*/
+	
+/*--GALERÍA--*/
+/*--Me faltan las flechas--*/
+	
+	.carrosel1{
+		margin: auto;
+	}
+	
+	.mySlides img{
+		height: 600px;
+		width: 300px;
+	}
+	
+	.texto-img {
+		top: 20%;
+		left: 10%;
+	}
+
+	.texto-img h2{
+		font-size: 100%;
+	}
+
+/*--ESTADO DE SERVICIO--*/
+/*--No tiene animación--*/
+
+	.servicio {
+		width: 90%;
+		z-index: 10;
+		top: 80%;
+		background-image: url("img/estado-normal-mobile.svg");
+		animation: none;
+	}
+	
+/*------BOTONES-------*/
+
+	#land-lineas{
+		display: block;
+		margin: 0px;
+	}
+	
+	#land-lineas a{
+		width:100%;
+	}
+	
+	#land-lineas button{
+		height: 300px;
+		padding: 0px;
+		float: center;
+	}
+	
+	#land-lineas img{
+		margin: 0px;
+	}
+	
+}
