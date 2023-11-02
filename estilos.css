@@ -81,7 +81,7 @@ header {
 	animation: fade 1.s ease-in;
 }
 
-nav {
+header nav {
 	width: 700px;
 	display: flex;
 	padding: 15px 0px;
@@ -94,7 +94,6 @@ nav a {
 	font-size: 13px;
 	font-style: normal;
 	font-weight: 400;
-	padding: 0px 30px;
 	color: black;
 }
 
@@ -138,6 +137,17 @@ a:hover{
 
 .color124{
 	color:#1D71B8;
+}
+
+.botoneramobile{
+	display: none;
+}
+
+.headermobile {
+	position: fixed;
+	top: 50px;
+	right: 50px;
+
 }
 
 /*------FOOTER-------*/
@@ -539,3 +549,63 @@ textarea {
 
 /*--REPONSIVE--*/
 
+@media (max-width: 600px) {
+}
+
+/*---GENERAL---*/
+		
+.solodesktop {
+	visibility: hidden;
+}
+	
+.solomobile {
+	visibility: visible;
+}	
+	
+/*---HEADER---*/	
+		
+#menuhamburguesa {
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 30%;
+	padding: 90px 30px 30px;
+	background: dimgray;
+	transition: opacity 500ms;
+	visibility: hidden;
+	opacity: 0;
+	color: #FFFFFF;
+	}
+		
+#menuhamburguesa:target {
+	visibility: visible;
+	opacity: 1;
+	align-items: flex-start;
+	}	
+		
+#cerrarmenuhambubrguesa {
+	position: absolute;
+	top: 15px;
+	right: 30px;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #FFFFFF;	
+	}	
+.botonesmobile nav a{
+	width: 700px;
+    display: flex;
+    padding: 15px 0px;
+    justify-content: space-between;
+}
+
+.headermobile {
+	top: 20px;
+	right: 30px;
+	}
+
+.botonesmobile {
+	display: flex;
+	flex-direction: column;
+	gap:10px;
+}
