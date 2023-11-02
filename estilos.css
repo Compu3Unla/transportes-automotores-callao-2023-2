@@ -613,7 +613,11 @@ textarea {
 	.solomobile {
 		visibility: visible;
 	}	
-		
+	
+	body{
+		margin-top: 10%;
+	}
+	
 	/*---HEADER---*/	
 	
 	header{
@@ -666,5 +670,123 @@ textarea {
 		flex-direction: column;
 		gap:10px;
 	}
+	
+/*-------INDEX-------*/
+	
+	/*---GALERÍA---*/
+	
+	.carrosel1 img{
+		min-height: 100vh;
+	}
 
+	.prev, .next {
+		top: 5%;
+		width: auto;
+	}
+	.next {
+		margin: 0px;
+	}
+
+	.texto-img {
+		top: 20%;
+		left: 10%;
+		width: 70%;
+	}
+
+	.texto-img h2{
+		font-size: 160%;
+	}
+	
+	/*---SERVICIO---*/
+	.servicio {
+		width: 90%;
+		height: auto;
+		top: 80%;
+		right: 5%;
+		z-index: 10;
+		background-image: url("img/estado-normal-mobile.svg");
+		animation: none;
+	}
+	
+	/*---BOTONES---*/
+	
+	#land-lineas{
+		width:100%;
+		display: flex;
+		flex-direction: column;
+}
+	#land-lineas a{
+		width:100%;
+	}
+	#land-lineas button{
+		width: 100%;
+		height: 50vh;
+		float:left;
+		border: none;
+	}
+	
+	/*---FAQ Y NOTICIAS---*/
+	
+	.contenedor {
+		width: 100%;
+		display: flex;
+		flex-direction: column-reverse;
+		padding: 0px;
+		margin: 0px;
+		align-items: center;
+	}
+	
+	#preguntas {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 50px;
+		padding: 0px;
+	}
+
+	#land-preguntas div {
+		width: 90%;
+	}
+	
+	.preg {
+		width: 95%;
+		margin: 0px;
+		font-size: 1.6em;
+		margin-bottom: 2px;
+	}
+	
+	.rta {
+		width: 100%;
+		font-size: 1.6em;
+	} 
+	
+	#noticias {
+		width: 95%;
+		font-size: 1.6em;
+	}
+	
+	#noticias h4{
+		font-size: 1.1em;
+	}
+	
+	#noticias div {
+		display: flex;
+	}
+
+	#noticias a{
+		width: auto;
+	}
+	
+	/*---VIDEO---*/
+	
+	.multimedia {
+		padding: 0px;
+		gap: 5%;
+		margin-bottom: 5%
+	}
+
+	video {
+		width: 100%;
+	}
 }
