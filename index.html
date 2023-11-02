@@ -15,12 +15,27 @@
 <body>
 	<header>
 		<a href="#"><img src="img/logo-h-color.svg" alt="logo" class="header-logo"></a>
-		<nav>
+		<nav class="solodesktop">
 			<a href="#">INICIO</a>
 			<a href="#land-lineas">LÍNEAS</a>
 			<a href="#land-preguntas">PREGUNTAS FRECUENTES</a>
 			<a href="contacto.html">CONTACTO</a>
 		</nav>
+
+		<!-- menú reponsive -->
+
+		<div class="solomobile headermobile">
+			<a href="#menuhamburguesa"><img src="img/menuhamburguesapng-01.png" width="25" height="20" alt="menu"/></a>
+			<nav id="menuhamburguesa" class="menuhamburguesa">
+				<ul class="botonesmobile">
+					<li><a id="estas-aqui">INICIO</a></li>
+					<li><a href="#land-lineas">LÍNEAS</a></li>
+					<li><a href="#land-preguntas">PREGUNTAS FRECUENTES</a></li>
+					<li><a href="contacto.html">CONTACTO</a></li>
+				</ul>
+				<a id="cerrarmenuhambubrguesa" href="#">&times;</a>
+			</nav>
+		</div>
 	</header>
 	<main>
 		<section>
@@ -96,8 +111,13 @@
 				<div>
 					<h4>Se presentó la SUBE para pasajeros con discapacidad</h4>
 					<p>Se avanzó en la creación de una credencial compatible con SUBE para que las personas con discapacidad puedan viajar en el transporte público con boleto gratuito sin necesidad de presentar el CUD (Certificado Único de Discapacidad) y habilitando a un acompañante. La prueba piloto de esta nueva herramienta de inclusión comenzará en Santa Rosa, La Pampa, y luego se implementará en todo el país.</p>
+					<a href="https://www.argentina.gob.ar/noticias/se-presento-la-sube-para-pasajeros-con-discapacidad" target="_blank">Más información</a>
 				</div>
-				<a href="https://www.argentina.gob.ar/noticias/se-presento-la-sube-para-pasajeros-con-discapacidad" target="_blank">→</a>
+				<div>
+					<h4>Novedades de la Tarjeta Sube</h4>
+					<p>A partir de hoy, implementamos Carga a Bordo en todo el AMBA, permitiendo que millones de usuarios y usuarias puedan validar la carga directamente en el colectivo; sin necesitar un teléfono o dirigirse a una terminal automática, generando un transporte más ágil y accesible.</p>
+					<a href="https://twitter.com/MindeTransporte/status/1718974678729965940" target="_blank">Más información</a>
+				</div>
 			</article>
 			<article id="preguntas">
 				<h3>Preguntas Frecuentes</h3>

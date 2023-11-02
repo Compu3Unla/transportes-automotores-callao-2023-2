@@ -81,7 +81,7 @@ header {
 	animation: fade 1s ease-in;
 }
 
-nav {
+header nav {
 	width: 700px;
 	display: flex;
 	padding: 15px 0px;
@@ -94,7 +94,6 @@ nav a {
 	font-size: 13px;
 	font-style: normal;
 	font-weight: 400;
-	padding: 0px 30px;
 	color: black;
 }
 
@@ -138,6 +137,22 @@ a:hover{
 
 .color124{
 	color:#1D71B8;
+}
+
+.botoneramobile{
+	display: none;
+}
+
+.headermobile {
+	position: fixed;
+	top: 50px;
+	right: 50px;
+	visibility: hidden;
+
+}
+
+.solodesktop {
+	visibility: visible;
 }
 
 /*------FOOTER-------*/
@@ -276,7 +291,6 @@ footer section div{
 	display: flex;
 	padding: 5%;
 	justify-content: space-between;
-	align-items: flex-start;
 	gap: 5%;
 }
 
@@ -291,10 +305,23 @@ footer section div{
 #noticias div {
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
 	padding: 5%;
 	border-radius: 30px;
 	background-color: lightgray;
+}
+
+#noticias a{
+	display: flex;
+	justify-content: center;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	width: 30%;
+	font-size: 87%;
+	margin-top: 5%;
+	margin-left: -5px;
+	background-color: dimgrey;
+	border-radius: 15px;
+	padding: 1%;
 }
 
 #preguntas {
@@ -590,68 +617,194 @@ textarea {
 	}
 }
 
-@media screen and (max-width: 600px) {
+/*--REPONSIVE--*/
+
+@media screen and (max-width: 700px) {
+
+
+	/*---GENERAL---*/
+			
+	.solodesktop {
+		visibility: hidden;
+	}
+		
+	.solomobile {
+		visibility: visible;
+	}	
 	
 	body{
-		margin-top:15%;
-		margin-left: 0px;
-		margin-right: 0px;
-		padding: 0px;
+		margin-top: 10%;
 	}
 	
-/*--INDEX.--*/
+	/*---HEADER---*/	
 	
-/*--GALERÍA--*/
-/*--Me faltan las flechas--*/
-	
-	.carrosel1{
-		margin: auto;
+	header{
+		padding: 20px 5%;
+
+	}
+
+	#menuhamburguesa {
+		position: fixed;
+		top: 0;
+		right: 0;
+		width: 30%;
+		padding: 90px 40px 60px;
+		background: dimgray;
+		transition: opacity 500ms;
+		visibility: hidden;
+		opacity: 0;
+		color: #FFFFFF;
+		}
+			
+	#menuhamburguesa:target {
+		visibility: visible;
+		opacity: 1;
+		align-items: flex-start;
+		}	
+			
+	#cerrarmenuhambubrguesa {
+		position: absolute;
+		top: 15px;
+		right: 30px;
+		font-size: 30px;
+		font-weight: bold;
+		text-decoration: none;
+		color: #FFFFFF;	
+		}	
+	.botonesmobile nav a{
+		width: 700px;
+		display: flex;
+		padding: 15px 0px;
+		justify-content: space-between;
+	}
+
+	.headermobile {
+		top: 35px;
+		right: 30px;
+		}
+
+	.botonesmobile {
+		display: flex;
+		flex-direction: column;
+		gap:10px;
 	}
 	
-	.mySlides img{
-		height: 600px;
-		width: 300px;
-	}
+/*-------INDEX-------*/
 	
+	/*---GALERÍA---*/
+	
+	.carrosel1 img{
+		min-height: 100vh;
+	}
+
+	.prev, .next {
+		top: 5%;
+		width: auto;
+	}
+	.next {
+		margin: 0px;
+	}
+
 	.texto-img {
 		top: 20%;
 		left: 10%;
+		width: 70%;
 	}
 
 	.texto-img h2{
-		font-size: 100%;
+		font-size: 160%;
 	}
-
-/*--ESTADO DE SERVICIO--*/
-/*--No tiene animación--*/
-
+	
+	/*---SERVICIO---*/
 	.servicio {
 		width: 90%;
-		z-index: 10;
+		height: auto;
 		top: 80%;
+		right: 5%;
+		z-index: 10;
 		background-image: url("img/estado-normal-mobile.svg");
 		animation: none;
 	}
 	
-/*------BOTONES-------*/
-
-	#land-lineas{
-		display: block;
-		margin: 0px;
-	}
+	/*---BOTONES---*/
 	
+	#land-lineas{
+		width:100%;
+		display: flex;
+		flex-direction: column;
+}
 	#land-lineas a{
 		width:100%;
 	}
-	
 	#land-lineas button{
-		height: 300px;
+		width: 100%;
+		height: 50vh;
+		float:left;
+		border: none;
+	}
+	
+	/*---FAQ Y NOTICIAS---*/
+	
+	.contenedor {
+		width: 100%;
+		display: flex;
+		flex-direction: column-reverse;
 		padding: 0px;
-		float: center;
-	}
-	
-	#land-lineas img{
 		margin: 0px;
+		align-items: center;
 	}
 	
+	#preguntas {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 50px;
+		padding: 0px;
+	}
+
+	#land-preguntas div {
+		width: 90%;
+	}
+	
+	.preg {
+		width: 95%;
+		margin: 0px;
+		font-size: 1.6em;
+		margin-bottom: 2px;
+	}
+	
+	.rta {
+		width: 100%;
+		font-size: 1.6em;
+	} 
+	
+	#noticias {
+		width: 95%;
+		font-size: 1.6em;
+	}
+	
+	#noticias h4{
+		font-size: 1.1em;
+	}
+	
+	#noticias div {
+		display: flex;
+	}
+
+	#noticias a{
+		width: auto;
+	}
+	
+	/*---VIDEO---*/
+	
+	.multimedia {
+		padding: 0px;
+		gap: 5%;
+		margin-bottom: 5%
+	}
+
+	video {
+		width: 100%;
+	}
 }
