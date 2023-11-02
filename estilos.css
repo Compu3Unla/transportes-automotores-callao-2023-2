@@ -549,7 +549,7 @@ textarea {
 
 /*--REPONSIVE--*/
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
 }
 
 /*---GENERAL---*/
@@ -598,7 +598,8 @@ textarea {
     padding: 15px 0px;
     justify-content: space-between;
 }
- #index {
+
+#index {
 	display: none;
 }
 
