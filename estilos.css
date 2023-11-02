@@ -1,4 +1,3 @@
-@charset "utf-8";
 /* CSS Document */
 
 html{
@@ -191,7 +190,7 @@ footer section div{
 /*------Galería-------*/
 
 .carrosel1{
-	max-width: 1000px auto;
+	width: auto;
 	position: relative;
 }
 
@@ -220,7 +219,7 @@ footer section div{
 	line-height: 1.5;
 	text-shadow: 1px 1.5px 3px black;
 }
-
+/*
 .servicio {
 	color: #f2f2f2;
 	font-size: 15px;
@@ -233,7 +232,7 @@ footer section div{
 	text-align: center;
 	background-color: aqua;
 	z-index: 1;
-}
+}*/
 
 /*------Noticias y pregúntas-------*/
 
@@ -453,4 +452,39 @@ textarea {
 
 .columna-izquierda-contacto article p a{
 	color:#000000;
+}
+
+/*--ESTADO DE SERVICIO--*/
+.servicio {
+	width: 600px;
+	height: 50px;
+	position: absolute;
+	bottom: 10%;
+	right: 5%;
+	z-index: 10;
+	background-image:_url("img/estado-normal.svg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	animation: estado alternate 30s infinite;
+	animation-delay: 2s
+}
+@keyframes estado {
+	0% {
+		background-image: url("img/estado-normal.svg");
+	}
+	10%{
+		background-image: url("img/estado-demora.svg");
+	}
+	45%{
+		background-image: url("img/estado-demora.svg");
+	}
+	55%{
+		background-image: url("img/estado-paro.svg");
+	}
+	90%{
+		background-image: url("img/estado-paro.svg");
+	}
+	100% {
+		background-image: url("img/estado-normal.svg");
+	}
 }
