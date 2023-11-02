@@ -451,10 +451,11 @@ video {
 /*------CONTACTO-------*/
 
 input {
-	width: 100%;
+	width: 85%;
 	background-color:lightgray;
 	padding: 15px;
-	margin: 10px 0px;
+	margin: 10px;
+	margin-left: 0px;
 	border-radius: 15px;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
@@ -463,11 +464,12 @@ input {
 }
 
 textarea {
-	width: 100%;
+	width: 85%;
 	height: 200px;
 	background-color:lightgray;
 	padding: 15px;
-	margin: 10px 0px;
+	margin: 10px;
+	margin-left: 0px;
 	border-radius: 15px;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
@@ -476,7 +478,8 @@ textarea {
 }
 
 .boton-enviar{
-	width: 25%;
+	width: 30%;
+	margin-left: 0px;
 	background-color: #1D1D1B;
 	color: white;
 	font-style:normal;
@@ -487,18 +490,25 @@ textarea {
 	color: #1D1D1B;
 }
 
+.columna-1 form article h3{
+	margin-bottom: 15px;
+}
+
 .contacto{
-	width: 90%;
+	width: 80%;
 	height: auto;
 	display:flex;
 	flex-direction:row;
 	padding: 90px 5% 2% 5%;
 	justify-content: space-between;
+	align-items: baseline;
+	margin-left: 10%;
 }
 
 .contacto div{
 	margin: 5% 0px;
 }
+
 
 /*--GENERALES*/
 * {
@@ -511,7 +521,7 @@ textarea {
 }
 
 .columna-1 {
-	width: 55%;
+	width: 50%;
 	min-height: auto;
 	margin-top: 20px;
 	display: flex;
@@ -523,16 +533,24 @@ textarea {
 }
 
 .columna-1 div p a {
-	color: darkblue;
+	color: #000000;
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+.columna-1 div p a:hover{
+	color:darkblue;
+	font-weight: 600;
+	text-decoration: underline;
 }
 
 .columna-2 {
-	width: 25%;
+	width: 40%;
 	margin-top: 20px;
 	height: auto;
 	display: flex;
 	flex-direction: column;
-	padding: 0 50px;
+	padding: 0px 90px;
 	gap: 20px;
 }
 
