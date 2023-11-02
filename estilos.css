@@ -317,44 +317,19 @@ footer section div{
 	background-color: black;
 	color: #DD0820;
 }
-<<<<<<< HEAD
-.linea124{
-	display:flex;
-	flex-direction:row;
-	padding: 60px;
-	color:#1d71b8;	
-}
-.botonera124:hover{
-	background-color: black;
-	color: #1d71b8;
-}
-.botonera124{
-=======
 
 .botonera-124 {
->>>>>>> 70c02d347485a4d6f8fede83147ec0eda6352b62
 	display:flex;
 	align-items: center;
 	width: 400px;
 	height:35px;
 	padding-left: 30px;
 	margin-left: 70px;
-<<<<<<< HEAD
-	background-color: #1d71b8;
-=======
 	background-color: #1D71B8;
->>>>>>> 70c02d347485a4d6f8fede83147ec0eda6352b62
 	color:#FFFFFF;
 	font-weight: lighter;
 	border-radius: 30px;
 }
-<<<<<<< HEAD
-.header124 {
-	background: #1d71b8;
-	}
-footer {
-	display: flex;
-=======
 .botonera-124:hover{
 	background-color: black;
 	color: #1D71B8;
@@ -384,7 +359,6 @@ footer {
 /*------CONTACTO-------*/
 
 input {
->>>>>>> 70c02d347485a4d6f8fede83147ec0eda6352b62
 	width: 100%;
 	background-color:#DADADA;
 	padding: 10px;
