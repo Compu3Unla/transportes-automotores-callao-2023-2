@@ -70,7 +70,7 @@ p {
 header {
 	display: flex;
 	width: 90%;
-	max-width: 1920px auto;
+	max-width: 1920px;
 	padding: 5px 5%;
 	justify-content: space-between;
 	background: white;
@@ -78,7 +78,7 @@ header {
 	position: fixed;
 	top: 0px;
 	z-index: 100;
-	animation: fade 1.s ease-in;
+	animation: fade 1s ease-in;
 }
 
 nav {
@@ -232,6 +232,42 @@ footer section div{
 	to {opacity: 1}
 }
 
+/*------Botones-------*/
+
+#land-lineas{
+	width:100%;
+	display: flex;
+	flex-direction: row;
+}
+#land-lineas a{
+	width:50%;
+}
+#land-lineas button{
+	width: 100%;
+	height: 1080px;
+	padding: 5%;
+	float:left;
+	border: none;
+}
+
+#land-12{
+	background-color: #DD0820;
+}
+#land-12:hover{
+	box-shadow: 0 0 12px rgba(70,150,240,0.7) inset;
+	filter: brightness(80%);
+	transition: all 0.5s ease;
+}
+
+#land-124{
+	background-color: #1D71B8;
+}
+#land-124:hover{
+	box-shadow: 0 0 12px rgba(150,10,70,0.7) inset;
+	filter: brightness(80%);
+	transition: all 0.5s ease;
+}
+
 /*------Noticias y pregúntas-------*/
 
 .contenedor {
@@ -309,42 +345,6 @@ footer section div{
 
 video {
 	width: 95%;
-}
-
-/*------Botones-------*/
-
-#land-lineas{
-	width:100%;
-	display: flex;
-	flex-direction: row;
-}
-#land-lineas a{
-	width:50%;
-}
-#land-lineas button{
-	width: 100%;
-	height: 1080px;
-	padding: 5%;
-	float:left;
-	border: none;
-}
-
-#land-12{
-	background-color: #DD0820;
-}
-#land-12:hover{
-	box-shadow: 0 0 12px rgba(70,150,240,0.7) inset;
-	filter: brightness(80%);
-	transition: all 0.5s ease;
-}
-
-#land-124{
-	background-color: #1D71B8;
-}
-#land-124:hover{
-	box-shadow: 0 0 12px rgba(150,10,70,0.7) inset;
-	filter: brightness(80%);
-	transition: all 0.5s ease;
 }
 
 /*------LINEAS-------*/
@@ -489,7 +489,8 @@ textarea {
 }
 
 .columna-1 div p a {
-	color:#000000;}
+	color: darkblue;
+}
 
 .columna-2 {
 	width: 25%;
