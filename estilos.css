@@ -81,7 +81,7 @@ header {
 	animation: fade 1s ease-in;
 }
 
-nav {
+header nav {
 	width: 700px;
 	display: flex;
 	padding: 15px 0px;
@@ -94,7 +94,6 @@ nav a {
 	font-size: 13px;
 	font-style: normal;
 	font-weight: 400;
-	padding: 0px 30px;
 	color: black;
 }
 
@@ -138,6 +137,17 @@ a:hover{
 
 .color124{
 	color:#1D71B8;
+}
+
+.botoneramobile{
+	display: none;
+}
+
+.headermobile {
+	position: fixed;
+	top: 50px;
+	right: 50px;
+
 }
 
 /*------FOOTER-------*/
@@ -572,68 +582,69 @@ textarea {
 	}
 }
 
+/*--REPONSIVE--*/
+
 @media screen and (max-width: 600px) {
+}
+
+/*---GENERAL---*/
+		
+.solodesktop {
+	visibility: hidden;
+}
 	
-	body{
-		margin-top:15%;
-		margin-left: 0px;
-		margin-right: 0px;
-		padding: 0px;
+.solomobile {
+	visibility: visible;
+}	
+	
+/*---HEADER---*/	
+		
+#menuhamburguesa {
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 30%;
+	padding: 90px 30px 30px;
+	background: dimgray;
+	transition: opacity 500ms;
+	visibility: hidden;
+	opacity: 0;
+	color: #FFFFFF;
 	}
-	
-/*--INDEX.--*/
-	
-/*--GALERÍA--*/
-/*--Me faltan las flechas--*/
-	
-	.carrosel1{
-		margin: auto;
-	}
-	
-	.mySlides img{
-		height: 600px;
-		width: 300px;
-	}
-	
-	.texto-img {
-		top: 20%;
-		left: 10%;
+		
+#menuhamburguesa:target {
+	visibility: visible;
+	opacity: 1;
+	align-items: flex-start;
+	}	
+		
+#cerrarmenuhambubrguesa {
+	position: absolute;
+	top: 15px;
+	right: 30px;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #FFFFFF;	
+	}	
+.botonesmobile nav a{
+	width: 700px;
+    display: flex;
+    padding: 15px 0px;
+    justify-content: space-between;
+}
+
+#index {
+	display: none;
+}
+
+.headermobile {
+	top: 20px;
+	right: 30px;
 	}
 
-	.texto-img h2{
-		font-size: 100%;
-	}
-
-/*--ESTADO DE SERVICIO--*/
-/*--No tiene animación--*/
-
-	.servicio {
-		width: 90%;
-		z-index: 10;
-		top: 80%;
-		background-image: url("img/estado-normal-mobile.svg");
-		animation: none;
-	}
-	
-/*------BOTONES-------*/
-
-	#land-lineas{
-		display: block;
-		margin: 0px;
-	}
-	
-	#land-lineas a{
-		width:100%;
-	}
-	
-	#land-lineas button{
-		height: 300px;
-		padding: 0px;
-		float: center;
-	}
-	
-	#land-lineas img{
-		margin: 0px;
-	}
-	
+.botonesmobile {
+	display: flex;
+	flex-direction: column;
+	gap:10px;
 }
