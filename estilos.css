@@ -324,8 +324,13 @@ footer section div{
 	padding: 1%;
 }
 
-#noticias a:hover{
-	right: 10px;
+#preguntas {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+	padding: 50px
 }
 
 #land-preguntas {
