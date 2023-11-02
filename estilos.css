@@ -631,10 +631,8 @@ textarea {
 		right: 0;
 		width: 30%;
 		padding: 90px 40px 60px;
-		background: dimgray;
+		background: rgba(134, 134, 134, 0.966);
 		transition: opacity 500ms;
-		visibility: hidden;
-		opacity: 0;
 		color: #FFFFFF;
 		}
 			
@@ -672,7 +670,7 @@ textarea {
 	}
 	
 /*-------INDEX-------*/
-	
+
 	/*---GALERÍA---*/
 	
 	.carrosel1 img{
