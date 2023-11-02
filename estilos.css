@@ -260,7 +260,7 @@ footer section div{
 	background-color: lightgray;
 }
 
- {
+#preguntas {
 	width: 40%;
 	display: flex;
 	flex-direction: column;
@@ -269,61 +269,61 @@ footer section div{
 	padding: 50px
 }
 
-#land-preguntas div {
-	box-shadow: 0 0 10px -1px rgba (0,0,0,1);
+#land-preguntas {
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	border-radius: 30px;
-	gap:15px;
-	padding: 1%
-	
+	gap:5px;
 }
-.faq {
-	
+#land-preguntas div {
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 30px;
 }
 .preg {
-	width: auto;
+	width: 90%;
 	height: auto;
-	display:flex;
-	flex-direction: row;
+	display: block;
 	align-items: center;
-	justify-content: space-between;
-	gap:10px;
+	border-radius: 25px;
 	padding: 10px 30px;
 	background-color: #1D1D1B;
 	color: white;
-	border-radius: 25px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	cursor:pointer;
+	margin-bottom: 2px;
+	transition: all 300ms ease;
 }
 .preg:hover{
 	background-color: dimgray;
 	color: white;
 }
-.preg p {
-	font-size: 1em;
+
+.btn-rta {
+	display: none
 }
-.more {
-	width: 25px;
-	height: 25px;
-	justify-content: center;
-	align-items: center;
-	gap: 5px;
-	cursor: pointer;
+.btn-rta:checked ~ .rta {
+	max-height: 100%;
+	padding: 10px;
+	
 }
 
 .rta {
 	width: auto;
-	height: auto;
-	padding: 10px 30px;
+	max-height: 0px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	gap:10px;
 	background-color: white;
 	color: #1D1D1B;
 	overflow: hidden;
-	transform: 4s
+	transition: all 300ms ease;
 } 
 /*------Nosotros-video-------*/
 
