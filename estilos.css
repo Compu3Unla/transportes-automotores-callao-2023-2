@@ -598,6 +598,9 @@ textarea {
     padding: 15px 0px;
     justify-content: space-between;
 }
+ #index {
+	display: none;
+}
 
 .headermobile {
 	top: 20px;
