@@ -244,8 +244,8 @@ footer section div{
 }
 #land-lineas button{
 	width: 100%;
-	height: 1080px;
-	padding: 5%;
+	max-height: 1080px;
+	padding: 50% 5%;
 	float:left;
 	border: none;
 }
@@ -271,7 +271,7 @@ footer section div{
 /*------Noticias y pregúntas-------*/
 
 .contenedor {
-	width: 85%;
+	width: 90%;
 	display: flex;
 	padding: 5%;
 	justify-content: space-between;
@@ -309,15 +309,18 @@ footer section div{
 	width: 100%;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
 	border-radius: 30px;
 	gap:5px;
 }
 #land-preguntas div {
-	width: 90%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	border-radius: 30px;
+}
+#land-preguntas div p{
+	width: 100%;
+	align-items: flex-start;
 	border-radius: 30px;
 }
 .preg {
@@ -350,14 +353,12 @@ footer section div{
 }
 
 .rta {
-	width: auto;
 	max-height: 0px;
-	display: flex;
-	flex-direction: column;
 	align-items: center;
-	justify-content: center;
+	justify-content: flex-start;
 	background-color: white;
 	color: #1D1D1B;
+	gap: 5px;
 	overflow: hidden;
 	transition: all 300ms ease;
 } 
@@ -396,19 +397,17 @@ video {
 	height: 500px;
 }
 
-.recorridos {
+.columna-2 div {
 	display: flex;
 	flex-direction: column;
-	gap: 20px;
-	align-items: center
-}
-.recorridos li {
-	height: auto;
 	align-items: center;
-	justify-content: center;
-	display: flex;
+	border-radius: 30px;
 }
-
+.columna-2 p{
+	width: 100%;
+	align-items: flex-start;
+	border-radius: 30px;
+} 
 .botonera-12 {
 	display:flex;
 	align-items: center;
@@ -422,12 +421,14 @@ video {
 	font-size: 1.5em;
 	font-weight: lighter;
 	border-radius: 30px;
+	cursor:pointer;
+	margin-bottom: 2px;
+	transition: all 300ms ease;
 }
 .botonera-12:hover{
-	background-color: black;
+	background-color: dimgray;
 	color: #DD0820;
 }
-
 .botonera-124 {
 	display:flex;
 	align-items: center;
@@ -441,10 +442,31 @@ video {
 	font-size: 1.5em;
 	font-weight: lighter;
 	border-radius: 30px;
+	cursor:pointer;
+	margin-bottom: 2px;
+	transition: all 300ms ease;
 }
 .botonera-124:hover{
 	background-color: black;
 	color: #1D71B8;
+}
+.btn-recorrido {
+	display: none
+}
+.btn-recorrido:checked ~ .recorrido {
+	max-height: 100%;
+	padding: 10px;
+	
+}
+.recorrido {
+	max-height: 0px;
+	align-items: center;
+	justify-content: flex-start;
+	background-color: white;
+	color: #1D1D1B;
+	gap: 5px;
+	overflow: hidden;
+	transition: all 300ms ease;
 }
 
 /*------CONTACTO-------*/
@@ -527,7 +549,7 @@ textarea {
 
 .columna-2 {
 	width: 25%;
-	margin-top: 20px;
+	margin-top: 30px;
 	height: auto;
 	display: flex;
 	flex-direction: column;
