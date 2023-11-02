@@ -503,7 +503,7 @@ textarea {
 	width: 600px;
 	height: 50px;
 	position: absolute;
-	bottom: 20%;
+	bottom: 10%;
 	right: 5%;
 	z-index: 10;
 	background-image:_url("img/estado-normal.svg");
