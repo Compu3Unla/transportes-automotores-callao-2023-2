@@ -824,7 +824,7 @@ textarea {
 	}
 	
 	#preguntas {
-		width: 100%;
+		width: 90%;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -849,7 +849,8 @@ textarea {
 	} 
 	
 	#noticias {
-		width: 95%;
+		width: 90
+			%;
 		font-size: 1.6em;
 	}
 	
