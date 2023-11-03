@@ -681,7 +681,7 @@ textarea {
 		top: 0;
 		right: 0;
 		width: 30%;
-		padding: 90px 40px 60px;
+		padding: 5%;
 		background: dimgray;
 		transition: opacity 500ms;
 		visibility: hidden;
@@ -894,12 +894,13 @@ textarea {
 		width: 100%;
 		padding: 5%;
 		margin: 0px;
-		max-width: auto;
+		max-width: 700px;
 	}
 	
 	.contacto main{
 		margin: 0px;
 		width: 100%;
+		overflow-x: hidden;
 	}
 	
 	.columna-2{
