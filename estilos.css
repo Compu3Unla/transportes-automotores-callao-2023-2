@@ -981,11 +981,9 @@ textarea {
 	}
 	.btn-recorrido:checked ~ .recorrido {
     max-height: 400px;
-    overflow: scroll;
     padding: 10px;
 	}
 	.recorrido {
 		width: 80%;
 	}
-	
 }
