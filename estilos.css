@@ -825,7 +825,7 @@ textarea {
 	}
 
 	.texto-img h2{
-		font-size: 600;
+		font-size: 100%;
 	}
 	
 	/*---SERVICIO---*/
@@ -845,7 +845,8 @@ textarea {
 		width:100%;
 		display: flex;
 		flex-direction: column;
-}
+	}
+	
 	#land-lineas a{
 		width:100%;
 	}
@@ -1017,8 +1018,8 @@ textarea {
 	}
 	.btn-recorrido:checked ~ .recorrido {
 		width: 85%;
-    	max-height: 400px;
-    	padding: 10px;
+		max-height: 400px;
+		padding: 10px;
 	}
 	.recorrido {
 		width: 80%;
