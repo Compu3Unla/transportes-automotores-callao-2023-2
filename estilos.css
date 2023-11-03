@@ -4,6 +4,14 @@ html{
 	scroll-behavior: smooth;
 }
 
+* {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+	outline: none;
+	border: none;
+}
 body {
 	width: 100%;
 	max-width: 1920px auto;
@@ -412,17 +420,47 @@ video {
 /*------LINEAS-------*/
 
 .lineas {
-	width: 90%;
+	width: 85%;
 	height: auto;
 	display:flex;
 	flex-direction:row;
 	padding: 90px 5% 2% 5%;
 	justify-content: space-between;
 }
+
+.info-lineas {
+		width: 55%;
+		min-height: auto;
+		margin-top: 20px;
+		display: flex;
+		flex-direction: column;
+}
+.info-lineas article {
+	gap: 15px;
+	display: flex;
+	flex-direction: column;
+}
 .mapa {
 	margin: 5% 0px;
 	width: 100%;
 	height: 500px;
+}
+.botones-lineas {
+	width: 10%;
+	margin-top: 135px;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding: 0px 90px;
+	gap: 20px;
+}
+.botones-lineas  div{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .recorridos {
@@ -443,9 +481,9 @@ video {
 	font-family: 'Open Sans', sans-serif;
 	padding-left: 15px;
 	}
-	.recorrido p{
-		font-weight: 600;
-	}
+.recorrido p{
+	font-weight: 600;
+}
 
 .botonera-12 {
 	display:flex;
@@ -563,17 +601,6 @@ textarea {
 
 .contacto div{
 	margin: 5% 0px;
-}
-
-
-/*--GENERALES*/
-* {
-	margin: 0px;
-	padding: 0px;
-	list-style: none;
-	text-decoration: none;
-	outline: none;
-	border: none;
 }
 
 .columna-1 {
@@ -899,8 +926,7 @@ textarea {
 		padding: 5%;
 		margin: 0px;
 		max-width: 700px;
-		
-	}
+		}
 	
 	.contacto main{
 		margin: 0px;
@@ -913,14 +939,15 @@ textarea {
 		width: 90%;
 		max-width: 700px;
 		justify-content: center;
-   		align-items: center;
+		margin-left: 0px;
+		align-items: flex-start;
 	}
 	
 	.columna-1{
 		width: 90%;
 		max-width: 700px;
 		justify-content: center;
-   		align-items: center;
+		align-items: center;
 	}
 	
 	input{
@@ -944,42 +971,27 @@ textarea {
 
 	/*---LÍNEAS---*/
 	.lineas {
-		width: 100%;
+		width: 95%;
 		height: 100%;
+		display: flex;
 		flex-direction:column;
 		align-items: center;	
 		padding: 90px 2% 2% 2%;
 	}
 
 	.info-lineas {
-		width: 90%;
-		min-height: auto;
+		width: 100%;
+		height: auto;
 		margin-top: 20px;
-		display: flex;
-		flex-direction: column;
-	}
-	.info-lineas article {
-		gap: 15px;
 		display: flex;
 		flex-direction: column;
 	}
 
 	.botones-lineas {
-		width: 90%;
-		margin-top: 20px;
-		height: auto;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		padding: 0px 90px;
-		gap: 20px;
-	}
-	.botones-lineas  div{
-		width: 100%;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
+		margin: 20px 0px;
+		width: 85%;
 		align-items: center;
+		gap: 15px;
 	}
 	.mapa {
  		display: flex;
