@@ -422,7 +422,7 @@ video {
 /*------LINEAS-------*/
 
 .lineas {
-	width: 85%;
+	width: 90%;
 	height: auto;
 	display:flex;
 	flex-direction:row;
@@ -448,7 +448,7 @@ video {
 	height: 500px;
 }
 .botones-lineas {
-	width: 10%;
+	width: 20%;
 	margin-top: 135px;
 	height: auto;
 	display: flex;
@@ -469,7 +469,7 @@ video {
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
-	align-items: center
+	align-items: flex-start;
 }
 .recorridos ul {
 	height: auto;
@@ -1021,6 +1021,7 @@ textarea {
     	padding: 10px;
 	}
 	.recorrido {
+		padding: 5px 0px;
 		width: 80%;
 	}
 }
