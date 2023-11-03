@@ -474,7 +474,7 @@ video {
 	border-radius: 30px;
 }
 .botonera-124:hover{
-	background-color: dimgray;
+	background-color: black;
 	color: #1D71B8;
 }
 .btn-recorrido {
@@ -657,37 +657,45 @@ textarea {
 	body{
 		margin-top: 10%;
 		max-width: 700px;
+		width: 100%;
+	}
+	
+	main{
+		margin: 0px;
+		padding: 0px;
+		width: 100%;
+		overflow-x: hidden;
+		display: flex;
+		flex-direction: column;
 	}
 	
 	/*---HEADER---*/	
 	
 	header{
 		padding: 20px 5%;
-		width: auto;
+		width: 100%;
+		max-width: 700px;
 	}
-	main {
-		display: flex;
-		flex-direction: column
-	}
+	
 	#menuhamburguesa {
 		position: fixed;
 		top: 0;
 		right: 0;
 		width: 30%;
-		padding: 90px 40px 60px;
+		padding: 5%;
 		background: dimgray;
 		transition: opacity 500ms;
 		visibility: hidden;
 		opacity: 0;
 		color: #FFFFFF;
-		}
-			
+	}
+	
 	#menuhamburguesa:target {
 		visibility: visible;
 		opacity: 1;
 		align-items: flex-start;
-		}	
-			
+	}
+	
 	#cerrarmenuhambubrguesa {
 		position: absolute;
 		top: 15px;
@@ -695,19 +703,19 @@ textarea {
 		font-size: 30px;
 		font-weight: bold;
 		text-decoration: none;
-		color: #FFFFFF;	
-		}	
-	.botonesmobile nav a{
+		color: white;
+	}
+	.botonesmobile a{
 		width: 700px;
 		display: flex;
 		padding: 15px 0px;
 		justify-content: space-between;
+		color: white;
 	}
 
 	.headermobile {
 		top: 35px;
-		right: 30px;
-		}
+	}
 
 	.botonesmobile {
 		display: flex;
@@ -722,6 +730,8 @@ textarea {
 		flex-direction: column;
 		align-items: center;
 		gap: 10px;
+		width: 100%;
+		margin: 0px;
 	}
 
 	footer a img {
@@ -759,6 +769,7 @@ textarea {
 	
 	/*---GALERÍA---*/
 	
+	
 	.carrosel1 img{
 		min-height: 100vh;
 	}
@@ -784,7 +795,7 @@ textarea {
 	/*---SERVICIO---*/
 	.servicio {
 		width: 90%;
-		height: auto;
+		height: 100%;
 		top: 80%;
 		right: 5%;
 		z-index: 10;
@@ -809,7 +820,7 @@ textarea {
 		border: none;
 	}
 	#land-lineas button img {
-		  height: 120px;
+		height: 120px;
 	}
 	
 	/*---FAQ Y NOTICIAS---*/
@@ -837,21 +848,26 @@ textarea {
 	}
 	
 	.preg {
-		width: 95%;
+		width: 90%;
 		margin: 0px;
-		font-size: 1.6em;
+		font-size: 1.1em;
 		margin-bottom: 2px;
 	}
 	
 	.rta {
 		width: 100%;
-		font-size: 1.6em;
+		font-size: 1.1em;
 	} 
 	
 	#noticias {
+<<<<<<< HEAD
 		width: 90
 			%;
 		font-size: 1.6em;
+=======
+		width: 90%;
+		font-size: 1.1em;
+>>>>>>> main
 	}
 	
 	#noticias h4{
@@ -878,7 +894,7 @@ textarea {
 		width: 100%;
 	}
 	
-	/*---CONTACTO---*/
+/*---CONTACTO---*/
 	.contacto{
 		flex-direction: column;
 		width: 100%;
@@ -886,6 +902,12 @@ textarea {
 		margin: 0px;
 		max-width: 700px;
 		
+	}
+	
+	.contacto main{
+		margin: 0px;
+		width: 100%;
+		overflow-x: hidden;
 	}
 	
 	.columna-2{
@@ -919,10 +941,10 @@ textarea {
 		}
 	
 	.columna-1 form article h3{
-	margin-top: 30px;
-	}
-	
-		/*---LÍNEAS---*/
+		margin-top: 30px;
+		}
+
+	/*---LÍNEAS---*/
 	.lineas {
 		width: 100%;
 		height: 100%;
