@@ -474,7 +474,7 @@ video {
 	border-radius: 30px;
 }
 .botonera-124:hover{
-	background-color: dimgray;
+	background-color: black;
 	color: #1D71B8;
 }
 .btn-recorrido {
@@ -658,13 +658,15 @@ textarea {
 		margin-top: 10%;
 		max-width: 700px;
 		width: 100%;
+		overflow-x: hidden;
+		
 	}
 	
 	/*---HEADER---*/	
 	
 	header{
 		padding: 20px 5%;
-		width: auto;
+		width: 100%;
 	}
 	main {
 		display: flex;
