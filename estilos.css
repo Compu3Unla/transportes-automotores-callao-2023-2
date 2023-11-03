@@ -830,7 +830,7 @@ textarea {
 	}
 	
 	#preguntas {
-		width: 100%;
+		width: 90%;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -855,8 +855,14 @@ textarea {
 	} 
 	
 	#noticias {
+<<<<<<< HEAD
+		width: 90
+			%;
+		font-size: 1.6em;
+=======
 		width: 90%;
 		font-size: 1.1em;
+>>>>>>> main
 	}
 	
 	#noticias h4{
@@ -890,6 +896,7 @@ textarea {
 		padding: 5%;
 		margin: 0px;
 		max-width: 700px;
+		
 	}
 	
 	.contacto main{
@@ -900,13 +907,17 @@ textarea {
 	
 	.columna-2{
 		padding: 0px;
-		width: 95%;
+		width: 90%;
 		max-width: 700px;
+		justify-content: center;
+   		align-items: center;
 	}
 	
 	.columna-1{
-		width: 85%;
+		width: 90%;
 		max-width: 700px;
+		justify-content: center;
+   		align-items: center;
 	}
 	
 	input{
@@ -941,17 +952,7 @@ textarea {
 		display: flex;
 		flex-direction: column;
 	}
-	
-	.columna-1 article h1 {
-		font-size: 4em;
-	}
-	.columna-1 article h4 {
-		font-size:25px;
-	}
-	.columna-1 article p {
-		font-size:35px;
-	}
-	
+
 	.mapa {
  		display: flex;
  		justify-content: center;
@@ -961,13 +962,13 @@ textarea {
 	}
 	
 	.botonera-12 {
-		width: 600px;
+		width: 350px;
  		height: 50px;
-		font-size: 1.8em;
+		font-size: 1.6em;
 	}
 	.botonera-124 {
-		width: 600px;
+		width: 350px;
  		height: 50px;
-		font-size: 1.8em;
+		font-size: 1.6em;
 	}
 }
