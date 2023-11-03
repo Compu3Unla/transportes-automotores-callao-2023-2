@@ -674,6 +674,7 @@ textarea {
 	header{
 		padding: 20px 5%;
 		width: 100%;
+		max-width: 700px;
 	}
 	
 	#menuhamburguesa {
@@ -714,7 +715,6 @@ textarea {
 
 	.headermobile {
 		top: 35px;
-		padding-right: 30px;
 	}
 
 	.botonesmobile {
