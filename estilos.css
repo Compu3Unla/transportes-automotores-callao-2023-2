@@ -145,11 +145,9 @@ a:hover{
 }
 
 .headermobile {
-	position: fixed;
 	top: 50px;
 	right: 50px;
 	visibility: hidden;
-
 }
 
 .solodesktop {
@@ -672,12 +670,11 @@ textarea {
 	/*---HEADER---*/	
 	
 	header{
-		padding: 20px 5%;
-		width: 100%;
+		padding: 3% 5%;
 	}
 	
 	#menuhamburguesa {
-		position: fixed;
+		position: relative;
 		top: 0;
 		right: 0;
 		width: 30%;
@@ -686,13 +683,11 @@ textarea {
 		transition: opacity 500ms;
 		visibility: hidden;
 		opacity: 0;
-		color: #FFFFFF;
 	}
 	
 	#menuhamburguesa:target {
 		visibility: visible;
 		opacity: 1;
-		align-items: flex-start;
 	}
 	
 	#cerrarmenuhambubrguesa {
@@ -701,7 +696,6 @@ textarea {
 		right: 30px;
 		font-size: 30px;
 		font-weight: bold;
-		text-decoration: none;
 		color: white;
 	}
 	.botonesmobile a{
