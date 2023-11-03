@@ -670,13 +670,9 @@ textarea {
 	/*---HEADER---*/	
 	
 	header{
-<<<<<<< HEAD
-		padding: 3% 5%;
-=======
 		padding: 20px 5%;
 		width: 100%;
 		max-width: 700px;
->>>>>>> 8b8ab0c74bcbe474d24e2d92b9028b1097a32444
 	}
 	
 	#menuhamburguesa {
