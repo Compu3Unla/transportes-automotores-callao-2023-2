@@ -412,7 +412,7 @@ video {
 
 /*------LINEAS-------*/
 
-.lineas{
+.lineas {
 	width: 90%;
 	height: auto;
 	display:flex;
@@ -644,9 +644,11 @@ textarea {
 	header{
 		padding: 20px 5%;
 		width: auto;
-
 	}
-
+	main {
+		display: flex;
+		flex-direction: column
+	}
 	#menuhamburguesa {
 		position: fixed;
 		top: 0;
@@ -746,6 +748,9 @@ textarea {
 		float:left;
 		border: none;
 	}
+	#land-lineas button img {
+		  height: 120px;
+	}
 	
 	/*---FAQ Y NOTICIAS---*/
 	
@@ -821,7 +826,7 @@ textarea {
 	}
 	
 	.columna-2{
-		padding-left: 0px;
+		padding: 0px;
 		width: 95%;
 	}
 	
@@ -844,6 +849,49 @@ textarea {
 	
 	.columna-1 form article h3{
 	margin-top: 30px;
+	}
+	
+	/*---LÍNEAS---*/
+	.lineas {
+		width: 100%;
+		height: 100%;
+		flex-direction:column;
+		align-items: center;	
+		padding: 90px 2% 2% 2%;
+	}
+	.columna-1 article {
+		gap: 15px;
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.columna-1 article h1 {
+		font-size: 4em;
+	}
+	.columna-1 article h4 {
+		font-size:25px;
+	}
+	.columna-1 article p {
+		font-size:35px;
+	}
+	
+	.mapa {
+ 		display: flex;
+ 		justify-content: center;
+		align-content: center;
+ 		width: 100%;
+ 		height: 550px;
+	}
+	
+	.botonera-12 {
+		width: 600px;
+ 		height: 50px;
+		font-size: 1.8em;
+	}
+	.botonera-124 {
+		width: 600px;
+ 		height: 50px;
+		font-size: 1.8em;
 	}
 	
 }
