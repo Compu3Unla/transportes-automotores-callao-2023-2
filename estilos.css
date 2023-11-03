@@ -431,12 +431,21 @@ video {
 	gap: 20px;
 	align-items: center
 }
-.recorridos li {
+.recorridos ul {
 	height: auto;
 	align-items: center;
 	justify-content: center;
 	display: flex;
+	font-family: 'Open Sans', sans-serif;
+	list-style: circle;
 }
+.recorrido li {
+	font-family: 'Open Sans', sans-serif;
+	padding-left: 15px;
+	}
+	.recorrido p{
+		font-weight: 600;
+	}
 
 .botonera-12 {
 	display:flex;
@@ -784,7 +793,7 @@ textarea {
 	}
 
 	.texto-img h2{
-		font-size: 160%;
+		font-size: 600;
 	}
 	
 	/*---SERVICIO---*/
@@ -941,12 +950,37 @@ textarea {
 		align-items: center;	
 		padding: 90px 2% 2% 2%;
 	}
-	.columna-1 article {
+
+	.info-lineas {
+		width: 90%;
+		min-height: auto;
+		margin-top: 20px;
+		display: flex;
+		flex-direction: column;
+	}
+	.info-lineas article {
 		gap: 15px;
 		display: flex;
 		flex-direction: column;
 	}
 
+	.botones-lineas {
+		width: 90%;
+		margin-top: 20px;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding: 0px 90px;
+		gap: 20px;
+	}
+	.botones-lineas  div{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
 	.mapa {
  		display: flex;
  		justify-content: center;
@@ -954,15 +988,22 @@ textarea {
  		width: 100%;
  		height: 550px;
 	}
-	
 	.botonera-12 {
-		width: 350px;
+		width: 300px;
  		height: 50px;
 		font-size: 1.6em;
 	}
 	.botonera-124 {
-		width: 350px;
+		width: 300px;
  		height: 50px;
 		font-size: 1.6em;
+	}
+	.btn-recorrido:checked ~ .recorrido {
+		width: 85%;
+    	max-height: 400px;
+    	padding: 10px;
+	}
+	.recorrido {
+		width: 80%;
 	}
 }
