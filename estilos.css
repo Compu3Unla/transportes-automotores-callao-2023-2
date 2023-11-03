@@ -885,17 +885,22 @@ textarea {
 		padding: 5%;
 		margin: 0px;
 		max-width: 700px;
+		
 	}
 	
 	.columna-2{
 		padding: 0px;
-		width: 95%;
+		width: 90%;
 		max-width: 700px;
+		justify-content: center;
+   		align-items: center;
 	}
 	
 	.columna-1{
-		width: 85%;
+		width: 90%;
 		max-width: 700px;
+		justify-content: center;
+   		align-items: center;
 	}
 	
 	input{
@@ -930,16 +935,16 @@ textarea {
 		display: flex;
 		flex-direction: column;
 	}
-	
+	/*
 	.columna-1 article h1 {
-		font-size: 4em;
+		font-size: 3em;
 	}
 	.columna-1 article h4 {
-		font-size:25px;
+		font-size:20px;
 	}
 	.columna-1 article p {
-		font-size:35px;
-	}
+		font-size:30px;
+	}*/
 	
 	.mapa {
  		display: flex;
@@ -950,12 +955,12 @@ textarea {
 	}
 	
 	.botonera-12 {
-		width: 600px;
+		width: 350px;
  		height: 50px;
 		font-size: 1.8em;
 	}
 	.botonera-124 {
-		width: 600px;
+		width: 350px;
  		height: 50px;
 		font-size: 1.8em;
 	}
