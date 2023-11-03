@@ -385,9 +385,10 @@ footer section div{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
+	justify-content: flex-start;
 	background-color: white;
 	color: #1D1D1B;
+	gap:5px;
 	overflow: hidden;
 	transition: all 300ms ease;
 } 
@@ -473,10 +474,29 @@ video {
 	border-radius: 30px;
 }
 .botonera-124:hover{
-	background-color: black;
+	background-color: dimgray;
 	color: #1D71B8;
 }
+.btn-recorrido {
+	display: none
+}
+.btn-recorrido:checked ~ .recorrido {
+	max-height: 500px;
+	overflow: scroll;
+	padding: 10px;
 
+}
+.recorrido {
+	width: 85%;
+	max-height: 0px;
+	align-items: center;
+	justify-content: flex-start;
+	background-color: white;
+	color: #1D1D1B;
+	gap: 5px;
+	overflow: hidden;
+	transition: all 400ms ease;
+}
 /*------CONTACTO-------*/
 
 input {
@@ -938,6 +958,4 @@ textarea {
  		height: 50px;
 		font-size: 1.8em;
 	}
-
-
 }
