@@ -848,20 +848,20 @@ textarea {
 	}
 	
 	.preg {
-		width: 95%;
+		width: 90%;
 		margin: 0px;
-		font-size: 1.6em;
+		font-size: 1.1em;
 		margin-bottom: 2px;
 	}
 	
 	.rta {
 		width: 100%;
-		font-size: 1.6em;
+		font-size: 1.1em;
 	} 
 	
 	#noticias {
-		width: 95%;
-		font-size: 1.6em;
+		width: 90%;
+		font-size: 1.1em;
 	}
 	
 	#noticias h4{
@@ -895,7 +895,6 @@ textarea {
 		padding: 5%;
 		margin: 0px;
 		max-width: auto;
-		margin: 0px;
 	}
 	
 	.contacto main{
