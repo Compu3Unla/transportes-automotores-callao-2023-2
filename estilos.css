@@ -655,7 +655,7 @@ textarea {
 	body{
 		margin-top: 10%;
 		max-width: 700px;
-		width: auto;
+		width: 100%;
 	}
 	
 	main{
@@ -670,7 +670,13 @@ textarea {
 	/*---HEADER---*/	
 	
 	header{
+<<<<<<< HEAD
 		padding: 3% 5%;
+=======
+		padding: 20px 5%;
+		width: 100%;
+		max-width: 700px;
+>>>>>>> 8b8ab0c74bcbe474d24e2d92b9028b1097a32444
 	}
 	
 	#menuhamburguesa {
@@ -678,7 +684,7 @@ textarea {
 		top: 0;
 		right: 0;
 		width: 30%;
-		padding: 90px 40px 60px;
+		padding: 5%;
 		background: dimgray;
 		transition: opacity 500ms;
 		visibility: hidden;
@@ -708,7 +714,6 @@ textarea {
 
 	.headermobile {
 		top: 35px;
-		padding-right: 30px;
 	}
 
 	.botonesmobile {
@@ -888,12 +893,13 @@ textarea {
 		width: 100%;
 		padding: 5%;
 		margin: 0px;
-		max-width: auto;
+		max-width: 700px;
 	}
 	
 	.contacto main{
 		margin: 0px;
 		width: 100%;
+		overflow-x: hidden;
 	}
 	
 	.columna-2{
