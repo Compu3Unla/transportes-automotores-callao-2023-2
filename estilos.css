@@ -657,6 +657,7 @@ textarea {
 	body{
 		margin-top: 10%;
 		max-width: 700px;
+		width: 100%;
 	}
 	
 	/*---HEADER---*/	
@@ -784,7 +785,7 @@ textarea {
 	/*---SERVICIO---*/
 	.servicio {
 		width: 90%;
-		height: auto;
+		height: 100%;
 		top: 80%;
 		right: 5%;
 		z-index: 10;
