@@ -2,6 +2,8 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="T.A.C" content="Transporte Automotores Callao S.A.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>linea12</title>
 <link rel="icon" type="image/svg" href="img/favicon.svg"/>
 <link href="estilos.css" rel="stylesheet" type="text/css">
@@ -18,6 +20,19 @@
 			<a href="index.html#land-preguntas">PREGUNTAS FRECUENTES</a>
 			<a href="contacto.html">CONTACTO</a>
 		</nav>
+		<!-- menú reponsive -->
+		<div class="solomobile headermobile">
+			<a href="#menuhamburguesa"><img src="img/menuhamburguesapng-01.png" width="25" height="20" alt="menu"/></a>
+			<nav id="menuhamburguesa" class="menuhamburguesa">
+				<ul class="botonesmobile">
+					<li><a id="estas-aqui">INICIO</a></li>
+					<li><a href="#land-lineas">LÍNEAS</a></li>
+					<li><a href="#land-preguntas">PREGUNTAS FRECUENTES</a></li>
+					<li><a href="contacto.html">CONTACTO</a></li>
+				</ul>
+				<a id="cerrarmenuhambubrguesa" href="#">&times;</a>
+			</nav>
+		</div>
 	</header>
 	<main class="lineas">
 		<section class="columna-1">
@@ -32,14 +47,64 @@
 			</article>
 		</section>
 		<section class="columna-2">
-			<ul class="recorridos">
-				<li>
-					<a href="#" class="botonera-124">Recorrido A</a>
-				</li>
-				<li>
-					<a href="#" class="botonera-124">Horarios</a>
-				</li>
-			</ul>
+			<div>
+				<input type="radio" name="more" id="btn-recorridoa" class="btn-recorrido">
+				<label for="btn-recorridoa" class="botonera-124">Recorrido A</label>
+				<div class="recorrido">
+					<p>Ida: Saenz Peña a Facultad de Derecho (UBA)</p>
+					<ul>
+						<li>Justo José de Urquiza y Senador Benito Ferro</li>
+						<li>Senador Benito Ferro, 2442</li>
+						<li>Las Acacias y Senador Benito Ferro</li>
+						<li>Av. Lope de Vega, 2669</li>
+						<li>Chile, 1407</li>
+						<li>Nuestra Sra. de Loreto, 2306</li>
+						<li>Colectora Gral. Paz </li>
+						<li>ingreso por Victor Hugo</li>
+						<li>Av. Lope de Vega</li>
+						<li>Asunción</li>
+						<li>Av. Lope de Vega</li>
+						<li>Cnel. Ramón Lista</li>
+						<li>Cervantes</li>
+						<li>Marcos Sastre</li>
+						<li>Av. Nazca</li>
+						<li>Neuquén</li>
+						<li>Fragata Pte. Sarmiento</li>
+						<li>Franklin</li>
+						<li>Av. Acoyte</li>
+						<li>Ferrari continuando por Lavalleja</li>
+						<li>Av. Corrientes</li>
+						<li>Av. Callao</li>
+						<li>Av. Figueroa Alcorta</li>
+						<li>Facultad de Derecho UBA</li>
+					</ul>
+					<p>Vuelta: Facultad de Derecho (UBA) a Saenz Peña</p>
+					<ul>
+						<li>Facultad de Derecho UBA</li>
+						<li>Av. del Libertador</li>
+						<li>Rodriguez Peña</li>
+						<li>Lavalle</li>
+						<li>Jean Jaures</li>
+						<li>Sarmiento</li>
+						<li>Antonio Machado</li>
+						<li>Ramos Mejia</li>
+						<li>Av. Ángel Gallardo continuando por Av. Gaona</li>
+						<li>Av. Nazca</li>
+						<li>Arregui</li>
+						<li>Helguera</li>
+						<li>Baigorria</li>
+						<li>Bermudez</li>
+						<li>Av. Francisco Beiró</li>
+						<li>Av. Lope de Vega</li>
+						<li>San Pedro</li>
+						<li>Santa Rosalia</li>
+						<li>Senador Benito Ferro, 2442</li>
+					</ul>
+				</div>
+			</div>
+			<div>
+				<a href="otros/frecuencia-linea124.pdf"  class="botonera-124">Horarios</a>
+			</div>
 		</section>
 	</main>
 	<footer>

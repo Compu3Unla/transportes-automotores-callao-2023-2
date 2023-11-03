@@ -2,6 +2,8 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="T.A.C" content="Transporte Automotores Callao S.A.">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Contacto</title>
 	<link rel="icon" type="image/svg" href="img/favicon.svg"/>
 	<link href="estilos.css" rel="stylesheet" type="text/css">
@@ -13,12 +15,26 @@
 <body>
 	<header>
 		<a href="index.html"><img src="img/logo-h-color.svg" alt="logo" class="header-logo"></a>
-		<nav>
+		<nav class="solodesktop">
 			<a href="index.html">INICIO</a>
 			<a href="index.html#land-lineas">LÍNEAS</a>
 			<a href="index.html#land-preguntas">PREGUNTAS FRECUENTES</a>
 			<a id="estas-aqui">CONTACTO</a>
 		</nav>
+		<!-- menú reponsive -->
+
+		<div class="solomobile headermobile">
+			<a href="#menuhamburguesa"><img src="img/menuhamburguesapng-01.png" width="25" height="20" alt="menu"/></a>
+			<nav id="menuhamburguesa" class="menuhamburguesa">
+				<ul class="botonesmobile">
+					<li><a href="index.html">INICIO</a></li>
+					<li><a href="#land-lineas">LÍNEAS</a></li>
+					<li><a href="#land-preguntas">PREGUNTAS FRECUENTES</a></li>
+					<li><a href="contacto.html">CONTACTO</a></li>
+				</ul>
+				<a id="cerrarmenuhambubrguesa" href="#">&times;</a>
+			</nav>
+		</div>
 	</header>
 	<main class="contacto">
 		<section class="columna-1">
