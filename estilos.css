@@ -955,12 +955,37 @@ textarea {
 		align-items: center;	
 		padding: 90px 2% 2% 2%;
 	}
-	.columna-1 article {
+
+	.info-lineas {
+		width: 90%;
+		min-height: auto;
+		margin-top: 20px;
+		display: flex;
+		flex-direction: column;
+	}
+	.info-lineas article {
 		gap: 15px;
 		display: flex;
 		flex-direction: column;
 	}
 
+	.botones-lineas {
+		width: 90%;
+		margin-top: 20px;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding: 0px 90px;
+		gap: 20px;
+	}
+	.botones-lineas  div{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
 	.mapa {
  		display: flex;
  		justify-content: center;
@@ -968,7 +993,6 @@ textarea {
  		width: 100%;
  		height: 550px;
 	}
-	
 	.botonera-12 {
 		width: 300px;
  		height: 50px;
@@ -980,8 +1004,9 @@ textarea {
 		font-size: 1.6em;
 	}
 	.btn-recorrido:checked ~ .recorrido {
-    max-height: 400px;
-    padding: 10px;
+		width: 85%;
+    	max-height: 400px;
+    	padding: 10px;
 	}
 	.recorrido {
 		width: 80%;
